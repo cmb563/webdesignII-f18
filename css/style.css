@@ -73,7 +73,7 @@ nav li a:active{
 }
 
 .about {
-	margin-top: 70px; 
+	margin-top: inherit; 
 	text-align: justify;
 }
  
@@ -162,7 +162,42 @@ nav li a:active{
   left: 0;
 }
 
+
+.disography {
+ Background: #25303b; 
+}
+.carousel-cell {
+  width: 30%;
+  height: 420px;
+  margin-right: 15px;
+  background: #fff;
+  counter-increment:no; 
+  text-align: center;
+  
+  }
+
+.products {
+  width: 100%;
+  float: left;
+  padding: 100px 0;
+  background: #25303b;
+  }
+
+.contact {
+  width: 100%;
+  float: left;
+  padding: 100px 0;
+  background: url(../images/bg_contact.jpg) no-repeat;
+  background-size: 1400px 1600px;
+  margin-top: inherit;
+  }
+
+
+
+
+
 /** band section */
+
 
 
 
@@ -286,8 +321,8 @@ footer a:active {
 .copyright a:active {
   color: #ffffff;
 }
-	
-	
+
+
 /**
  * Note: I have omitted any vendor-prefixes for clarity.
  * Adding them is left as an exercise for the reader.
