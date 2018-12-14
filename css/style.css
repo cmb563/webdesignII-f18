@@ -389,9 +389,9 @@ footer a:active {
  */
 
 .headroom {
-  transition: -webkit-transform 200ms linear;
-  transition: transform 200ms linear;
-  transition: transform 200ms linear, -webkit-transform 200ms linear;
+  transition: -webkit-transform 10ms linear;
+  transition: transform 10ms linear;
+  transition: transform 10ms linear, -webkit-transform 10ms linear;
 }
 
 .headroom--pinned {
@@ -402,4 +402,12 @@ footer a:active {
 .headroom--unpinned {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
+}
+
+
+.hero-slide {
+  margin-bottom: 79px;
+  width: 100%;
+  float: left;
+  box-shadow: 9px 2px 5px 2px rgba(0, 0, 0, 0.12);
 }
