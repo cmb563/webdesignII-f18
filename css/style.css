@@ -67,8 +67,14 @@ nav li a:active{
 	color: #25303B;
 }
 
+.yellow-subhead {
+	color: #FDBF5A; 
+	text-align: center;
+}
+
 .about {
 	margin-top: 70px; 
+	text-align: justify;
 }
  
  
@@ -76,6 +82,7 @@ nav li a:active{
 
 .legacy{
   background: white;
+  text-align: justify;
 }
 
 .about,
@@ -90,9 +97,197 @@ nav li a:active{
   padding: 100px 0;
 }
 
+.achivements {
+  width: 100%;
+  float: left;
+  padding: 100px 0;
+  background-color: #25303B;
+  }
+
+
+.boxgrid h3 {
+  margin: 10px 10px 0 10px;
+  color: #fff;
+  font: 18pt Arial, sans-serif;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.boxgrid {
+  width: 300px;
+  height: 260px;
+  float: left;
+  background: #161613;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.boxgrid img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+
+.boxgrid p {
+  padding: 0 10px;
+  color: #FDBF5A;
+  font-weight: bold;
+  font: 10px 'Arial', sans-serif;
+}  
+
+.boxcaption {
+  float:left;
+  position: absolute;
+  background: #25303B;
+  height: 100px;
+  width: 100%;
+  opacity: .8;
+  
+}
+
+.boxgrid a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.captionfull .boxcaption {
+  top: 260px;
+  left: 0;
+}
+
+.caption .boxcaption {
+  top: 220px;
+  left: 0;
+}
+
+/** band section */
 
 
 
+.band-subhead {
+text-align: left;
+color: #FDBF5A;
+
+}
+
+.band-caption {
+text-align: justify;
+color: #25303B; 
+}
+
+
+footer {
+  width: 100%;
+  background-color: #FDBF5A;
+  float: left;
+  text-align: left;
+  padding: 100px 0 0 0;
+}
+
+footer a:link {
+  color: #25303B;
+  text-decoration: none;
+}
+footer a:visited {
+  color: #25303B;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #25303B;
+}
+footer a:active {
+  color: #25303B;
+}
+.footer-logo img {
+  float: left;
+  height: 161px;
+  padding: 8px;
+}
+.footer-nav li {
+  list-style-type: none;
+  color: #25303B;
+}
+.footer-nav a:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-nav ul li a:visted {
+  color: #25303B;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-nav ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-nav ul li a:active {
+  color: #fff;
+}
+.social-icons li {
+  list-style-type: none;
+  display: inline-block;
+  color: #25303B;
+  padding-right: 10px;
+}
+.social-icons a:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.social-icons ul li a:visted {
+  color: #25303B;
+  text-decoration: none;
+  cursor: pointer;
+}
+.social-icons ul li a:hover {
+  color: #25303B;
+  text-decoration: none;
+  cursor: pointer;
+}
+.social-icons ul li a:active {
+  color: #25303B;
+}
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-instagram {
+  color: #25303B;
+  font-size: 1.9em;
+}
+
+.copyright {
+  display:block;
+  float: left;
+  background-color: #25303B;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  padding: 25px 0;
+  margin-top:100px;
+}
+
+.copyright a:link {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.copyright a:visted {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.copyright a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.copyright a:active {
+  color: #ffffff;
+}
+	
+	
 /**
  * Note: I have omitted any vendor-prefixes for clarity.
  * Adding them is left as an exercise for the reader.
