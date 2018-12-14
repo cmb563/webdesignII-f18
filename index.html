@@ -18,11 +18,17 @@
 	<link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/flickity.min.css">
 	<link rel="stylesheet" href="css/hugrid.css"> 
+	<link rel="stylesheet" href="css/aos.css">
 	
 </head>
 
 <body>
-
+     
+	
+	
+	
+	
+	
   <section class="untitled"> 
 <header class="headroom headroom--pinned headroom--unpinned">   
   <div class="container">
@@ -53,14 +59,16 @@
 <!-- hero slide-->
  </section>
 	   <section data-scroll-index="0" class="hero-slide">
+	
     <div class="hero-slide-show">
-      <ul class="rslides">
+	 <ul class="rslides">
       <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2321731/hero2.jpg" alt=""></li>
       <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2321731/hero3.jpg" alt=""></li>
       <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2321731/Untitled-2.jpg" alt=""></li>
         
       </ul>
-    </div>
+	</div>
+  
  </section> <!-- end hero slide-->
   
  
@@ -68,24 +76,32 @@
 <section class="about" data-scroll-index="1">
     <div class="row">
 	<div class="container">
-    <h1 class="subhead">About</h1>
-   <div class="columns_2">
+     <div data-aos="fade-up"
+     data-aos-duration="1000"><h1 class="subhead">About</h1>
+   <div class="columns_2"><div data-aos="fade-right"
+     data-aos-offset="300" data-aos-once="true"
+     data-aos-easing="ease-in-sine">
     <p class="blue-paragraph">His passion was music and his big band sound  aquickened the pulse of a generation ready to shrug off the Depression and dance. With clarinet
 in hand, Benny Goodm    an was transformed from a child in Chicago’s impoverished Jewish ghetto into
-the king of swing, greeted with near pandemonium wherever his band played. Goodman led jazz into the commercial mainstream.  
-</p>
+the king of swing, greeted with near pandemonium wherever his band played. Goodman led jazz into the commercial mainstream. 
+</p></div>
     </div>
-       <div class="columns_2">
+       <div class="columns_2"> <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500" data-aos-once="true"
+      data-aos-duration="1000">
     <p class="blue-paragraph">  That brought with him an extraordinary group of gifted and original musicians. Band members Teddy Wilson and Lionel Hampton were some of the first to break the big band color barrier. Held together by the force of Goodman’s personality and a willingness to put their music above all else, the Benny Goodman Band created a kingdom of swing for all. 
          </p></div>
     </div>
   </div>
+</div>	
+</div>	
 </section>
   
 <section class="history" data-scroll-index="2">
   <div class="container">
     <h1 class="yellow-subhead">History</h1>
-    <p class="yellow-subhead">The Life of Benn Goodman</p>
+    <p class="yellow-subhead">The Life of Benny Goodman</p>
 	 <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1ieg6i11nyXrhbJsjOfX8PO_GEuX_uPwxKHJLRn600os&font=Playfair-FaunaOne&lang=en&timenav_position=top&initial_zoom=2&height=650" width="100%" height="650" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0"></iframe>
   </div>
 </section>
@@ -122,22 +138,49 @@ the king of swing, greeted with near pandemonium wherever his band played. Goodm
 		</div>
 		
 	  </div>
-    </div>
-</section>
-	
-<section class="products"> 
-  <div class="container">
-    <div class="carousel" data-flickity="{ "wrapAround": true ">
-  <div class="carousel-cell"> <img src="images/album5.jpg" alt=""></div>
-  <div class="carousel-cell"> <img src="images/album2.jpg" alt=""></div>
-  <div class="carousel-cell"><img src="images/album6.jpg" alt=""></div>
-<div class="carousel-cell"><img src="images/album1.jpg" alt=""></div>
-<div class="carousel-cell"><img src="images/album3.jpg" alt=""></div> 
-  
-   </div> <!-- end carousel-->
-  </div>
-	<!-- end container-->
-</section> <!-- end untitled-->
+	  
+	  <div class="row">
+	<h1 class="yellow-subhead">Top Albums</h1>
+	  <div class="columns_3">
+		  <img alt="album" src="images/album1.jpg">
+		  </div>
+		  <div class="columns_3">
+		  <img alt="album" src="images/album3.jpg">
+		  </div>
+		   <div class="columns_3">
+		  <img alt="album" src="images/album6.jpg">
+		  </div>
+		  
+	   </div>
+	  
+	  <div class="row">
+	  <div class="columns_3">
+		  <div class="album-text">
+			<h3 class="album-subhead">Greatest Hits</h3>
+			 <p class="album-caption">Goodmans Top Selling Album</p>
+			
+			</div>
+		  </div>
+	  
+	   <div class="columns_3">
+		  <div class="album-text">
+			<h3 class="album-subhead">Benny Goodman</h3>
+			 <p class="album-caption">1938 Carnegie Hall Jazz Concert</p>
+			
+			</div>
+		  </div>
+	   <div class="columns_3">
+		  <div class="album-text">
+			<h3 class="album-subhead">Let's Dance</h3>
+			 <p class="album-caption">Jazz Collection Edition</p>
+			
+			</div>
+		  </div>
+	  
+	  </div>
+	 </div>
+	  </section>
+	 
   
 <section class="band" data-scroll-index="5">
   <div class="container">
@@ -195,13 +238,12 @@ the king of swing, greeted with near pandemonium wherever his band played. Goodm
   <div class="container">
     <h2 class="yellow-subhead">Achivements</h2><br><br>
     <div class="row">
-      
-    <div class="columns_3">
+      <div class="columns_3">
       <div class="boxgrid captionfull">
       <img src="images/achivement1.jpg" alt="achivement1">
         <div class="cover boxcaption">
-          <h3>Cheyenne Burkeholder</h3>
-          <p> Photographer<br/><a href="#" target="_blank">More Work</a></p>
+          <h3>Service Award</h3>
+          <p> First Annual Distinguished Service Award from Hull House, Chicago in 1985.<br/><a href="#" target="_blank">More</a></p>
         </div>
    </div>
  </div><!--end columns1-->
@@ -209,8 +251,8 @@ the king of swing, greeted with near pandemonium wherever his band played. Goodm
       <div class="boxgrid captionfull">
       <img src="images/achivement2.jpg" alt="achivement2">
         <div class="cover boxcaption">
-          <h3>Cheyenne Burkeholder</h3>
-          <p> Photographer<br/><a href="#" target="_blank">More Work</a></p>
+          <h3>Grammy Award</h3>
+          <p> Won a Lifetime Achievement Grammy Award in 1986.<br/><a href="#" target="_blank">More</a></p>
         </div>
    </div>
  </div><!--end columns1-->
@@ -218,20 +260,20 @@ the king of swing, greeted with near pandemonium wherever his band played. Goodm
       <div class="boxgrid captionfull">
       <img src="images/achivements3.jpg" alt="achivement3">
         <div class="cover boxcaption">
-          <h3>Cheyenne Burkeholder</h3>
-          <p> Photographer<br/><a href="#" target="_blank">More Work</a></p>
+          <h3>Afro-American</h3>
+          <p> Ella Fizgerald joined Benny in Baltimore for the event Afro-American.<br/><a href="#" target="_blank">More</a></p>
         </div>
    </div>
  </div><!--end columns1-->
   </div><!--end row-->
-    
+    <br><br><br>
      <div class="row">
     <div class="columns_3">
       <div class="boxgrid captionfull">
       <img src="images/achivement4.jpg" alt="achivement4">
         <div class="cover boxcaption">
-          <h3>Cheyenne Burkeholder</h3>
-          <p> Photographer<br/><a href="#" target="_blank">More Work</a></p>
+          <h3>Kennedy Award</h3>
+          <p> Presented with a Kennedy Center Award in 1982.<br/><a href="#" target="_blank">More</a></p>
         </div>
    </div>
  </div><!--end columns1-->
@@ -239,8 +281,8 @@ the king of swing, greeted with near pandemonium wherever his band played. Goodm
       <div class="boxgrid captionfull">
       <img src="images/achivement5.jpg" alt="achivement5">
         <div class="cover boxcaption">
-          <h3>Cheyenne Burkeholder</h3>
-          <p> Photographer<br/><a href="#" target="_blank">More Work</a></p>
+          <h3>Battle It Out</h3>
+          <p> Benny might have not won but this was one of the biggest events held at the time.<br/><a href="#" target="_blank">More</a></p>
         </div>
    </div>
  </div><!--end columns1-->
@@ -248,8 +290,8 @@ the king of swing, greeted with near pandemonium wherever his band played. Goodm
       <div class="boxgrid captionfull">
       <img src="images/achivement6.jpg" alt="achivement6">
         <div class="cover boxcaption">
-          <h3>Cheyenne Burkeholder</h3>
-          <p> Photographer<br/><a href="#" target="_blank">More Work</a></p>
+          <h3>Carnegie Hall</h3>
+          <p> His band was the first jazz band to play Carnegie Hall.<br/><a href="#" target="_blank">More</a></p>
         </div>
    </div>
  </div><!--end columns1-->
@@ -261,6 +303,15 @@ the king of swing, greeted with near pandemonium wherever his band played. Goodm
 	<section class="contact" data-scroll-index="7">
     <div class="container">
     <h2 class="yellow-subhead">Contact</h2>
+		<div class="columns_2">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1912.3708036948688!2d-73.98569432651797!3d40.768540234261295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258589e584977%3A0x661ec4c464f6c2f9!2s10+Columbus+Cir%2C+New+York%2C+NY+10019!5e0!3m2!1sen!2sus!4v1544799545091" width="440" height="311" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<p class="contact-content"><strong>New York, USA</strong> 10 Columbus Cir, New York, NY 10019</p>
+		<p class="contact-content"> Come out and learn more about Benny Goodman and other jazz artist at the National Jazz Museum in New York. </p>
+		</div>
+		
+		
+		
+		<div class="columns_2">
 		<form action="gd-web-form.php" method="post" class="contact-form"> 
  				<input id="name" type="text" name="name" placeholder="Your Full Name">
  				
@@ -273,6 +324,7 @@ the king of swing, greeted with near pandemonium wherever his band played. Goodm
  			</form>
 		  </div>
 		
+		</div>
 </section>
 	<!-- Footer -->
 <footer>
@@ -343,6 +395,7 @@ the king of swing, greeted with near pandemonium wherever his band played. Goodm
 	<script src="js/hugrid.js"></script>
 	<script src="js/rollover-gallery.js"></script>
 	<script src="js/flickity.pkgd.min.js"></script>
+	<script src="js/aos.js"></script>
 	</body>
 
 </html>
