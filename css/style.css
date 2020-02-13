@@ -203,8 +203,12 @@ text-align: center;
 
 .disography {
  Background: #25303b; 
+
 }
 
+.columns_3 {
+	padding: 10px;
+}
 
 
 
@@ -241,7 +245,9 @@ text-align: center;
 
 
 
-
+.columns_4 {
+	padding: 7px;
+}
 
 
 .band-subhead {
