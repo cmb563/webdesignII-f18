@@ -39,26 +39,26 @@ nav li{
   display: inline-block;
   padding-left: 20px;
   curser: pointer;
-  color: white
+  color: #FDBF5A;
  }
 
 nav li a:link{
- color: white;
+ color: #FDBF5A;
  text-decoration: none;
 }
 
 nav li a:visited{
- color: white;
+ color: #FDBF5A;
  text-decoration: none;
 }
 
 nav li a:hover{
- color: #FDBF5A;
+ color: #ffffff;
  text-decoration: none;
 }
 
 nav li a:active{
- color: #FDBF5A;
+ color: #ffffff;
  text-decoration: none;
 }
 .hero-slide-show {
