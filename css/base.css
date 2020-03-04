@@ -104,11 +104,11 @@ a:visited {
 	outline: 0;
 }
 a:hover {
-	color: #FDBF5A;
+	color: #ffffff;
 	text-decoration: underline;
 }
 a:active {
-	color: #FDBF5A;
+	color: #ffffff;
 }
 .more {
 	font-size: 0.9em;
