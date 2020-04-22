@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 163.5 33.7" style="enable-background:new 0 0 163.5 33.7;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{font-family:'Ultra-Regular';}
-	.st2{font-size:32.58px;}
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Baskerville-Bold';}
+	.st3{font-size:20px;}
 </style>
-<title>bg_logo</title>
-<text transform="matrix(0.4921 0 0 1 0 24.7601)" class="st0 st1 st2">Ben</text>
-<text transform="matrix(0.4921 0 0 1 38.2358 24.7601)" class="st0 st1 st2">n</text>
-<text transform="matrix(0.4921 0 0 1 51.5825 24.7601)" class="st0 st1 st2">y Goodman</text>
+<rect x="0.2" y="8.4" class="st0" width="163.3" height="16.9"/>
+<text transform="matrix(1 0 0 1 0.248 21.9016)" class="st1 st2 st3">Benny Goodman</text>
 </svg>
